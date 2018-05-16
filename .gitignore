@@ -1,20 +1,35 @@
 # Inhalte der Upload Ordner #
 #############################
 Blends/*
+!Blends/empty
 Brushes/*
+!Brushes/empty
 Designs/*
+!Designs/empty
 Downloads/*
+!Downloads/empty
 Headers/*
+!Headers/empty
 Iconbases/*
+!Iconbases/empty
 Icons/*
+!Icons/empty
 Icontextures/*
+!Icontextures/empty
 Materials/*
+!Materials/empty
 Psds/*
+!Psds/empty
 Reviews/*
+!Reviews/empty
 Signatures/*
+!Signatures/empty
 Textures/*
+!Textures/empty
 Tutorials/*
+!Tutorials/empty
 Wallpapers/*
+!Wallpapers/empty
 
 # Betriebssystem Dateien #
 ##########################
