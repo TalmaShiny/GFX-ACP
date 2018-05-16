@@ -1,0 +1,48 @@
+# Inhalte der Upload Ordner #
+#############################
+Blends/*
+Brushes/*
+Designs/*
+Downloads/*
+Headers/*
+Iconbases/*
+Icons/*
+Icontextures/*
+Materials/*
+Psds/*
+Reviews/*
+Signatures/*
+Textures/*
+Tutorials/*
+Wallpapers/*
+
+# Betriebssystem Dateien #
+##########################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Tool-spezifische Dateien #
+############################
+# vim
+*~
+*.swp
+*.swo
+# sublime text & textmate
+*.sublime-*
+*.stTheme.cache
+*.tmlanguage.cache
+*.tmPreferences.cache
+# Eclipse
+.settings/*
+# JetBrains, aka PHPStorm, IntelliJ IDEA
+.idea/*
+# NetBeans
+nbproject/*
+# Visual Studio Code
+.vscode
