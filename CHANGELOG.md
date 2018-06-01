@@ -1,3 +1,6 @@
+# Version 2.0.1
+ * Bugfix Materials
+
 # Version 2.0
  * Umstellung mysqli
  * Diverse Bugfixes

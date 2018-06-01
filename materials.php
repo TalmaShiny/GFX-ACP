@@ -164,7 +164,7 @@ while ($row_icons = mysqli_fetch_object($ergebnis_icons)) {
     echo "(" . $werte['anzahl'] . ")";
     echo "</div>";
 
-    echo "<center><a href='big.php?id=" . $row_icons->id . "&image=materials/" . $row_icons->id . $row_icons->bild . "' target='_blank'><img src='webicons/view1.png' border='0'></a></center>";
+    echo "<center><a href='big.php?id=" . $row_icons->id . "&image=Materials/" . $row_icons->id . $row_icons->bild . "' target='_blank'><img src='webicons/view1.png' border='0'></a></center>";
 
     echo "</div>";
     echo "</td>";

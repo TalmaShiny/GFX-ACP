@@ -39,8 +39,8 @@ if (isset($_SESSION["acp"])) {
 					'0')";
                 $eintragen = mysqli_query($link, $eintrag) OR die(mysqli_error($link));
                 $id = mysqli_insert_id($link);
-                move_uploaded_file($_FILES["material_" . $i]["tmp_name"], "materials/" . $id . $endung);
-                move_uploaded_file($_FILES["materialvorschau_" . $i]["tmp_name"], "materials/" . $id . "_vorschau" . $endung2);
+                move_uploaded_file($_FILES["material_" . $i]["tmp_name"], "Materials/" . $id . $endung);
+                move_uploaded_file($_FILES["materialvorschau_" . $i]["tmp_name"], "Materials/" . $id . "_vorschau" . $endung2);
             } else {
                 echo "<p class='fault'>Du hast ein Material vergessen!</p>";
             }
