@@ -59,14 +59,14 @@ if (isset($_SESSION["acp"])) {
         $Eingabe = 1;
     }
     echo "Wieviele Signatures möchtest du hochladen?</br>";
-    echo "<form action='Signaturesverwalten.php' method='post'>";
+    echo "<form action='signaturesverwalten.php' method='post'>";
     echo "<input type='text' name='eingabe' value='" . $Eingabe . "'> 
 			<input type='submit' name='submit_anzahl' value='Go' >";
     echo "</form>";
     echo "<br /><br />";
 
     /* HOCHLADEN */
-    echo "<form action='Signaturesverwalten.php?action=newsig' method='post' enctype='multipart/form-data'>";
+    echo "<form action='signaturesverwalten.php?action=newsig' method='post' enctype='multipart/form-data'>";
     echo "<table>";
 
     for ($i = 1; $i <= $Eingabe; $i++) {
