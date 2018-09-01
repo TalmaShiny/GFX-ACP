@@ -191,7 +191,7 @@ while ($row = mysqli_fetch_object($ergebnis)){
                         include 'bbc-buttons.php'
                         ?>
                     </center>
-                    <textarea name="message" cols=34 rows=5><?= save($row->benutzertext, $link); ?></textarea>
+                    <textarea name="message" cols=34 rows=5><?= $row->benutzertext ?></textarea>
                 </div>
             </td>
         </tr>
