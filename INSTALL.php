@@ -100,7 +100,7 @@ if (mysqli_errno($link) == 0) {
 
 $navisparte = "CREATE TABLE IF NOT EXISTS navisparten (
 	id int(11) NOT NULL AUTO_INCREMENT,
-	Spartenbezeichnung varchar(30) NOT NULL,
+	spartenbezeichnung varchar(30) NOT NULL,
 	PRIMARY KEY (id)
 	)";
 mysqli_query($link, $navisparte) OR die(mysqli_error($link));
