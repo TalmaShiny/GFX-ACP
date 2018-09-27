@@ -31,7 +31,7 @@ if (isset($_SESSION["acp"])) {
     if (!empty($_REQUEST["action"]) && $_REQUEST['action'] == 'newsparte') {
         $anzahl = $_REQUEST["anzahl"];
         for ($i = 1; $i <= $anzahl; $i++) {
-            $eintrag = "INSERT INTO navisparten (Spartenbezeichnung) VALUES ('" . save($_POST["name_" . $i], $link) . "')";
+            $eintrag = "INSERT INTO navisparten (spartenbezeichnung) VALUES ('" . save($_POST["name_" . $i], $link) . "')";
             $eintragen = mysqli_query($link, $eintrag) OR die(mysqli_error($link));
         }
         echo "<p class='ok'>Erfolgreich eingetragen!</p>";
@@ -46,7 +46,7 @@ if (isset($_SESSION["acp"])) {
             echo "<table>";
             echo "<tr>";
             echo "<td>Menüspartenbezeichnung:</td>";
-            echo "<td><input type='text' name='name' size='20' value='" . $row->Spartenbezeichnung . "'></td>";
+            echo "<td><input type='text' name='name' size='20' value='" . $row->spartenbezeichnung . "'></td>";
             echo "</tr>";
             echo "<tr>";
             echo "<td></td>";
@@ -125,7 +125,7 @@ if (isset($_SESSION["acp"])) {
             echo $row->id;
             echo "</td>";
             echo "<td align='center'>";
-            echo $row->Spartenbezeichnung;
+            echo $row->spartenbezeichnung;
             echo "</td>";
             echo "<td align='center'>";
             echo "<a href=?action=delete&id=" . $row->id . ">
